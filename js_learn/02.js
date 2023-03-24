@@ -1,12 +1,12 @@
 // variables
-"use strict"
+"use strict";
 var firstname = "ashok";
-console.log(firstname)
+console.log(firstname);
 
-firstname = "kumar"
-console.log(firstname)
+firstname = "kumar";
+console.log(firstname);
 
-var a = "ashok"
-var A = "ASHOK"
-console.log(A)
-console.log(a)
+var a = "ashok";
+var A = "ASHOK";
+console.log(A);
+console.log(a);
