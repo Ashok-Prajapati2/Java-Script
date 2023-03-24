@@ -35,7 +35,7 @@ html
 <!DOCTYPE html>
 <html>
   <head>
-    <title>first program</title>
+    <title>My Page</title>
   </head>
   <body>
     <h1>Hello World!</h1>
