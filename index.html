@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body></body>
+</body>
+<script>
+    
+    var winingnum = 20;
+    var usernum = prompt("guess a number");
+    usernum = Number(usernum)
+    console.log(typeof usernum);
+    
+    if (usernum === winingnum) {
+      console.log("you win");
+
+    }
+    if (usernum > winingnum) {
+      console.log("please enter a lower number");
+    }
+    if (usernum < winingnum) {
+      console.log("please enter a highir number");
+    } 
+    </script>
+</html>
