@@ -23,3 +23,21 @@ var maxnum = 90n; // this is BigInt
 console.log(maxnum);
 
 // console.log(maxnum + numb)  // this is error becouse number and BigInt oprestion is not allow
+
+// booleans  //True & False
+// comparision operator
+var num1 = 5;
+var num2 = 10;
+console.log(num1 > num2);
+console.log(num1 < num2);
+console.log(num1 == num2);
+
+var num1 = 2;
+var num2 = "2";
+console.log(num1 == num2);
+console.log(num1 === num2);
+
+// ==vs==
+var num1 = 5;
+var num2 = 5;
+console.log(num1 != num2);
