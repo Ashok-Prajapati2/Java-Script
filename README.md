@@ -67,7 +67,7 @@ Operators
 
 Operators are used to perform operations on values in JavaScript. There are several types of operators, including arithmetic operators, comparison operators, logical operators, and assignment operators.
 
-Arithmetic operators are used to perform mathematical operations, such as addition, subtraction, multiplication, and division. Comparison operators are used to compare values, such as equal to, not equal to, greater than, and less than. Logical operators are used to combine and manipulate boolean values. Assignment operators are used to assign values to variables
+Arithmetic operators are used to perform mathematical operations, such as addition, subtraction, multiplication, and division. Comparison operators are used to compare values, such as equal to, not equal to, greater than, and less than. Logical operators are used to combine and manipulate boolean values. Assignment operators are used to assign values to variables:
 
 <script>
 let x = 10;
