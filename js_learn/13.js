@@ -1,8 +1,8 @@
 // nested if else
 
 var winingnum = 20;
-// var usernum = prompt("guess a number");
-var usernum = 20;
+var usernum = prompt("guess a number");
+// var usernum = 20;
 usernum = Number(usernum);
 console.log(typeof usernum);
 
