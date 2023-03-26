@@ -19,7 +19,7 @@ const usersinfo = [
   {
     userid: 01,
     name: "ashok",
-    gender: "male",
+    gender: "mal// object destructinge",
   },
   {
     userid: 02,
@@ -46,6 +46,5 @@ for (var user30 of usersinfo) {
 
 // nested destructuring
 
-const [user1 , user2 , {userid : user}] = usersinfo
-console.log(user1,user2.gender,";",user)
-
+const [user1, user2, { userid: user }] = usersinfo;
+console.log(user1, user2.gender, ";", user);
