@@ -1,34 +1,34 @@
 // object destructing
 var band = {
-  names: "ASHOK",
-  age: 18,
+  "usern": "ASHOK",
+  age20: 18,
   year: 2023,
 };
-var band1 = band.name;
+var band1 = band.usern;
 console.log(band1);
 
-const { names, age, ...rest } = band;
-console.log(names, age, rest);
+const { usern, age20, ...rest } = band;
+console.log(usern, age20, rest);
 
 var { year } = band;
 console.log(band);
 
 //object inside ayyays
 
-const usersinfo = [
+ const usersinfo = [
   {
     userid: 01,
-    name: "ashok",
+    namesp: "ashok",
     gender: "mal// object destructinge",
   },
   {
     userid: 02,
-    name: "kumar",
+    namesp: "kumar",
     gender: "male",
   },
   {
     userid: 03,
-    name: "prajapati",
+    namesp: "prajapati",
     gender: "male",
   },
 ];
@@ -38,7 +38,7 @@ for (var user30 of usersinfo) {
     "user data : ",
     user30.userid,
     ",",
-    user30.name,
+    user30.namesp,
     ",",
     user30.gender
   );
