@@ -42,8 +42,8 @@ function even(n) {
   }
 }
 
-// var n = prompt("number");
-// even(n);
+var n = prompt("number");
+even(n);
 
 ///
 
