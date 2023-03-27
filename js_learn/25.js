@@ -81,3 +81,16 @@ gmorning();
 sin();
 
 ////////////////
+
+// arrow function
+
+const gmorningarrow = () => {
+  console.log("Good Morning ASHOK ....... ");
+};
+
+gmorningarrow();
+//
+const isodd = (number) => number % 2 == 0;
+console.log(isodd(10))
+
+///
