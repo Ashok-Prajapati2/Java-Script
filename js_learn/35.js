@@ -30,7 +30,5 @@ for (let char of arraya) {
 
 // array like object
 
-var ste = "ASHOK"
-console.log(ste.length)
-
-
+var ste = "ASHOK";
+console.log(ste.length);
