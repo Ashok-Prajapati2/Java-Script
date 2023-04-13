@@ -86,3 +86,5 @@ class animal2 extends animal {
 var tomy = new animal2("cat", 10, 20);
 console.log(tomy);
 console.log(tomy.run);
+
+/////////
