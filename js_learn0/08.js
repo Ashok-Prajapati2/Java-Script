@@ -1,5 +1,5 @@
 // console.log("start");
-const all = document.querySelectorAll(".my-buttons button");
+// const all = document.querySelectorAll(".my-buttons button");
 
 // all.forEach((butten) => {
 //   butten.addEventListener("click", (e) => {
