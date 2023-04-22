@@ -5,9 +5,12 @@
 }
 
 main {
-  min-height: 100vh;
+  /* min-height: 100vh; */
   display: flex;
   text-align: center;
+  justify-content: center;
+  justify-items: center;
+  padding-top: 3rem;
 }
 
 h1 {
@@ -23,4 +26,32 @@ button {
   border: none;
   padding: 0.5rem;
   margin: 1rem;
+}
+
+
+.g{
+  
+  font-size: 10px;
+  text-align: center;
+  display: flex-box;
+  padding: 2em;
+  background-color: green;
+  justify-content: center;
+  justify-items: center;
+  margin: 5px;
+}
+.p{
+  background: #fd2121;
+  text-align: center;
+  justify-content: center;
+  justify-items: center;
+  
+  padding: 2rem;
+}
+.c{
+  background-color: #0affad;
+padding: 2rem;
+text-align: center;
+  justify-content: center;
+  justify-items: center;
 }
