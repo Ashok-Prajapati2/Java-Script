@@ -104,11 +104,13 @@ a {
 
 .todo-list {
     text-align: left;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     list-style-type: none;
+  
 }
 
 .todo-list li {
+    max-height: 50px;
     padding: 0.7rem;
     background: #444;
     color: white;
@@ -117,14 +119,17 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0.1rem;
 }
 
-.todo-btn {
+.todo-list .btn1 , .todo-list .btn2{
     /* min-height: 100%; */
+    margin: 0.1rem;
     padding: 0.5rem 1rem;
-    font-size: 1rem;
+    font-size: 0.8rem;
     font-weight: bold;
     cursor: pointer;
+   
 }
 
 .section-signup {
