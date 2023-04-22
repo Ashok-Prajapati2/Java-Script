@@ -1,8 +1,8 @@
 // keypress event
 // mouserover event
 
-const body = document.querySelector("body");
-const btn = document.querySelector(".btn-headline")
+// const body = document.querySelector("body");
+// const btn = document.querySelector(".btn-headline")
 
 // body.addEventListener("keypress", function s(a){
 //   console.log(a);
@@ -18,6 +18,3 @@ const btn = document.querySelector(".btn-headline")
 // });
 
 
-// event bubbling / event propogation
-// event capturing
-// event delegation
